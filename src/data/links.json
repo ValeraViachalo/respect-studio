@@ -1,0 +1,30 @@
+{
+  "primary": [
+    {
+      "name": "Services",
+      "link": "/#"
+    },
+    {
+      "name": "Case Studies",
+      "link": "/#"
+    },
+    {
+      "name": "Blog",
+      "link": "/#"
+    },
+    {
+      "name": "About us",
+      "link": "/#"
+    }
+  ],
+  "secondary": [
+    {
+      "name": "We`re hiring",
+      "link": "/#"
+    },
+    {
+      "name": "Contacts",
+      "link": "/#"
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+@import "./mixins";
+
+.big-text {
+  font-family: "SuisseIntl", sans-serif;
+  font-weight: normal;
+  font-size: 7vw;
+  line-height: 96%;
+  letter-spacing: -0.4vw;
+
+  &-2 {
+    font-size: 5.8vw;
+  }
+}
+
+%h1 {
+  font-family: "SuisseIntl", sans-serif;
+  font-weight: normal;
+  font-size: 4.3vw;
+  line-height: 96%;
+  letter-spacing: -0.1vw;
+}
+
+%h2 {
+  font-family: "SuisseIntl", sans-serif;
+  font-size: 3.2vw ;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 110%;
+  letter-spacing: 0vw;
+}
+
+%h3 {
+  font-family: "SuisseIntl", sans-serif;
+  font-size: 2vw;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 110%;
+  letter-spacing: 0vw;
+}
+
+%body-text {
+  font-family: "SuisseIntl", sans-serif;
+  font-size: 1.2vw;
+  font-style: normal;
+  font-weight: 100;
+  line-height: 120.5%;
+  letter-spacing: normal;
+}
+
+.logo {
+  font-family: "SuisseIntl", sans-serif;
+  font-weight: normal;
+  font-size: 4.6vw;
+  line-height: 96%;
+  letter-spacing: -0.2vw;
+}
+
+body {
+  @extend %body-text;
+}
+
+h1 {
+  @extend %h1;
+}
+
+h2 {
+  @extend %h2;
+}
+
+h3 {
+  @extend %h3;
+}
+
+.body-text {
+  &-2 {
+    @extend %body-text;
+    font-size: 1vw;
+  }
+}
+
+.splitting {
+  .whitespace {
+  width: 1vw;
+  display: inline-block;
+}}
