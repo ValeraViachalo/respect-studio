@@ -113,14 +113,6 @@ export default {
       const tl = gsap.timeline();
 
       tl.to(
-        "#preview, .hero",
-        {
-          backgroundImage: 'url("/public/images/hero/01.webp")',
-          animation: "none",
-        },
-        0
-      );
-      tl.to(
         "#loader",
         {
           clipPath: "inset(0 0 100% 0)",
@@ -213,7 +205,8 @@ export default {
 
 .preview {
   .hero {
-    // background-image: url("/public/images/hero/01.webp") !important;
+    background-image: url("/public/images/hero/01.webp") !important;
+    animation: none;
 
     background-position: 50% 100%;
     background-repeat: no-repeat;

@@ -1,29 +1,18 @@
-# respect-studio
+![Cover](public/readmeCover.webp)
 
-This template should help get you started developing with Vue 3 in Vite.
+# Respect studio
 
-## Recommended IDE Setup
+## [Demo Link](https://respect-studio-phi.vercel.app/) 
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
-
-## Project Setup
-
-```sh
-npm install
+### "createdWith": {
 ```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
+"@studio-freight/lenis": "^1.0.39",
+"gsap": "^3.12.5",
+"sass": "^1.71.1",
+"splitting": "^1.0.6",
+"vue": "^3.4.15"
 ```
+### }
+<hr />
 
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
+![logo](public/LogoForReadMe.svg)

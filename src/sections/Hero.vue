@@ -26,7 +26,6 @@ export default {
 <template>
   <section class="hero" id="hero">
     <div class="container">
-      <!-- <Logo /> -->
       <p class="hero__about body-text-2">
         Digital Marketing
         <br />

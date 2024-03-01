@@ -13,9 +13,7 @@
     "gsap": "^3.12.5",
     "sass": "^1.71.1",
     "splitting": "^1.0.6",
-    "vue": "^3.4.15",
-    "vue-observe-visibility": "^1.0.0",
-    "vue-router": "^4.3.0"
+    "vue": "^3.4.15"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^5.0.3",
